@@ -1,2 +1,0 @@
-# blog
-on dev branch

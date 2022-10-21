@@ -11,7 +11,7 @@ export default function Navbar() {
           <li><CustomLink to="/about">About</CustomLink></li>
         </ul>
       </nav>
-</header>
+    </header>
 
   )
 }
