@@ -1,4 +1,7 @@
+import {CustomLink} from './Links.js'
 import './css/Footer.css';
+
+// change href to links
 
 export default function Footer() {
 	return (
@@ -7,35 +10,35 @@ export default function Footer() {
 		<footer>
 			<ul class='icons'>
 				<li>
-					<a href='#'>
+					<CustomLink to=''>
 						<ion-icon name='logo-facebook'></ion-icon>
-					</a>
+					</CustomLink>
 				</li>
 				<li>
-					<a href='#'>
+					<CustomLink to=''>
 						<ion-icon name='logo-instagram'></ion-icon>
-					</a>
+					</CustomLink>
 				</li>
 			</ul>
 			<ul class='menu'>
 				<li>
-					<a href='#'>Home</a>
+					<CustomLink to=''>Home</CustomLink>
 				</li>
 				<li>
-					<a href='#'>About</a>
+					<CustomLink to=''>About</CustomLink>
 				</li>
 				<li>
-					<a href='#'>Partners</a>
+					<CustomLink to=''>Partners</CustomLink>
 				</li>
 				<li>
-					<a href='#'>Specialties</a>
+					<CustomLink to=''>Specialties</CustomLink>
 				</li>
 				<li>
-					<a href='#'>Contact Us</a>
+					<CustomLink to=''>Contact Us</CustomLink>
 				</li>
 			</ul>
 			<div class='footer-copyright'>
-				<p>Copyright @ 2022 All Rights Reserved.</p>
+				<p>Copyright @ LVLUp 2022 All Rights Reserved.</p>
 			</div>
 		</footer>
 	);
