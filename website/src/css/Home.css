@@ -1,0 +1,10 @@
+.container {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	top: 10vh;
+}
+
+.content {
+	margin: 40px 0;
+}

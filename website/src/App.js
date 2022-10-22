@@ -6,19 +6,16 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
 	return (
-		<div className='page'>
+		<>
 			<Navbar />
 			
-			<div className="container">
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 			</Routes>
-			</div>
 
 			<Footer />
-			
-	  </div>
+	  </>
 	);
 }
 
