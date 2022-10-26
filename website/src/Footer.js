@@ -1,4 +1,4 @@
-import {CustomLink} from './Links.js'
+import { CustomLink } from './Links.js';
 import './css/Footer.css';
 
 // change href to links
@@ -7,7 +7,7 @@ export default function Footer() {
 	return (
 		// look for icons
 
-		<footer>
+		<footer className='footer'>
 			<ul class='icons'>
 				<li>
 					<CustomLink to=''>
@@ -38,7 +38,7 @@ export default function Footer() {
 				</li>
 			</ul>
 			<div class='footer-copyright'>
-				<p>Copyright @ LVLUp 2022 All Rights Reserved.</p>
+				<p>Copyright @ LVLUP 2022 All Rights Reserved.</p>
 			</div>
 		</footer>
 	);

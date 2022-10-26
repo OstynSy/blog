@@ -1,14 +1,11 @@
-html {
-	font-family: 'Oswald';
-	margin: 1em 20%;
-	background-color: #fafafa;
-}
 header {
+	font-family: 'Oswald';
 	position: fixed;
 	top: 0;
-	right: 0;
 	left: 0;
+	width: 100%;
 	border-bottom: 1px solid #e3e3e8;
+	background-color: #fafafa;
 }
 #logo {
 	float: left;
