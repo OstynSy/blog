@@ -1,6 +1,6 @@
 import '../css/Home.css';
-import Search from '../Search.js';
-import BlogCards from '../BlogCards.js';
+import Search from '../components/Search';
+import BlogCards from '../components/BlogCards';
 
 export default function Home() {
 	return (

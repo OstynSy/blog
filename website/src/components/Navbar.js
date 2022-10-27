@@ -1,6 +1,6 @@
-import { CustomLink } from './Links.js';
+import { CustomLink } from './Links';
 import { Link } from 'react-router-dom';
-import './css/Navbar.css';
+import '../css/Navbar.css';
 
 export default function Navbar() {
 	return (

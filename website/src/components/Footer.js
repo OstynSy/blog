@@ -1,5 +1,5 @@
 import { CustomLink } from './Links.js';
-import './css/Footer.css';
+import '../css/Footer.css';
 
 // change href to links
 
