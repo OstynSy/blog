@@ -11,9 +11,7 @@ export default function Navbar() {
 			<nav>
 				<ul>
 					<li>
-						<CustomLink to='/' id='current'>
-							Home
-						</CustomLink>
+						<CustomLink to='/'>Home</CustomLink>
 					</li>
 					<li>
 						<CustomLink to='/about'>About</CustomLink>
