@@ -43,14 +43,10 @@ nav ul li a {
 	padding-bottom: 1.3em;
 	transition: 0.5s color;
 }
-nav ul li a:hover {
+nav ul a:hover {
 	border-bottom: 3px solid #333;
 }
 
-#current {
-	color: #ff4629;
-	border-bottom: 3px solid #333;
-}
 #fb:hover {
 	color: #3b5998;
 }

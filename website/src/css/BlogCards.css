@@ -1,0 +1,18 @@
+.card {
+}
+
+.card_body {
+	display: flex;
+	flex-direction: column;
+	width: clamp(20rem, calc(20rem + 2vw), 22rem);
+	overflow: hidden;
+	background: #ece9e6;
+	border-color: black;
+	border: solid 2px;
+	border-radius: 1rem;
+	box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+	background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+.card_img {
+}

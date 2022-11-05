@@ -22,10 +22,10 @@ export default function Footer() {
 			</ul>
 			<ul class='menu'>
 				<li>
-					<CustomLink to=''>Home</CustomLink>
+					<CustomLink to='/'>Home</CustomLink>
 				</li>
 				<li>
-					<CustomLink to=''>About</CustomLink>
+					<CustomLink to='/about'>About</CustomLink>
 				</li>
 				<li>
 					<CustomLink to=''>Partners</CustomLink>
